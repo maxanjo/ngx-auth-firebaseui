@@ -1,3 +1,6 @@
+<blockquote>
+<p><g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji> This is a clone of original plugin <a href="https://github.com/AnthonyNahas/ngx-auth-firebaseui">ngx-auth-firebaseui</a> with new beta features, changes or experiments</p>
+</blockquote>
 <p align="center">
   <img height="256px" width="256px" style="text-align: center;"
   src="https://cdn.jsdelivr.net/gh/anthonynahas/ngx-auth-firebaseui@master/assets/angular-material-extensions-logo.svg">
@@ -480,6 +483,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
                 },
                  () => 'your_app_name_factory',
                 {
+                  authMethod: 'popup', //'popup' or 'redirect'. Method to autauthenticate users. Default - popup. Redirect is recomended for mobile devices.Redirect is recomended for mobile devices.
                   enableFirestoreSync: true, // enable/disable autosync users with firestore
                   toastMessageOnAuthSuccess: false, // whether to open/show a snackbar message on auth success - default : true
                   toastMessageOnAuthError: false, // whether to open/show a snackbar message on auth error - default : true
