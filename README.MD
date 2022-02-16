@@ -483,7 +483,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
                 },
                  () => 'your_app_name_factory',
                 {
-                  authMethod: 'popup', //'popup' or 'redirect'. Method to autauthenticate users. Default - popup. Redirect is recomended for mobile devices.Redirect is recomended for mobile devices.
+                  authMethod: 'popup', //'popup' or 'redirect'. Method to authenticate users. Default - popup. Redirect is recomended for mobile devices.Redirect is recomended for mobile devices.
                   enableFirestoreSync: true, // enable/disable autosync users with firestore
                   toastMessageOnAuthSuccess: false, // whether to open/show a snackbar message on auth success - default : true
                   toastMessageOnAuthError: false, // whether to open/show a snackbar message on auth error - default : true
